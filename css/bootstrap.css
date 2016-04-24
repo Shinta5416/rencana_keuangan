@@ -1596,7 +1596,9 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    /*width: 1170px;*/
+    width:95%;
+   
   }
 }
 .container-fluid {
@@ -4958,12 +4960,18 @@ a.badge:focus {
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-right: 60px;
-    padding-left: 60px;
+    /*padding-right: 60px;
+    padding-left: 60px;*/
+    background-color:#ffA500;
+    color:#fff;
+    padding:100px 25px;
+   
   }
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+       
+      
   }
 }
 .thumbnail {
@@ -6204,10 +6212,12 @@ button.close {
 }
 .carousel {
   position: relative;
+  width:100%;
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  /*width: 70%;*/
+  width:100%;
   overflow: hidden;
 }
 .carousel-inner > .item {
@@ -6220,6 +6230,9 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  width:100%;
+  margin:auto;
+  
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
@@ -6739,4 +6752,10 @@ padding-top: 8px;
 	line-height:100px;
 	padding:0px 0px -100px 0px;
 }
+
+.image2 {
+	float:left;
+	padding:30px 10px 20px 10px;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
