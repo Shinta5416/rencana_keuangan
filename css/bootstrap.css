@@ -1798,6 +1798,7 @@ pre code {
   }
   .col-sm-6 {
     width: 50%;
+    
   }
   .col-sm-5 {
     width: 41.66666667%;
@@ -4456,8 +4457,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: 0px;
     padding-top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;
+    letter-spacing:2px;
+   
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4989,8 +4994,8 @@ a.badge:focus {
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
-          margin-left:20px;
-          margin-right:20px;
+          margin-left:35px;
+          margin-right:35px;
 }
 .thumbnail > img,
 .thumbnail a > img {
