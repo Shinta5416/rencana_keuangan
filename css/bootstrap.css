@@ -6243,7 +6243,7 @@ button.close {
 .carousel-inner > .item > a > img {
   line-height: 1;
   /*width:100%;*/
-  width:70%;
+  width:60%;
   margin:auto;
   
 }
