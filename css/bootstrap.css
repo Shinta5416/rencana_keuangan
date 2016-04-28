@@ -1117,9 +1117,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
- 
-  
+  height: auto; 
 }
 .img-rounded {
   border-radius: 6px;
@@ -4141,6 +4139,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar {
     border-radius: 4px;
     /*margin:10px 0;*/
+    margin-top:-5px;
   }
 }
 @media (min-width: 768px) {
@@ -4458,10 +4457,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: 0px;
-    padding-top:20px;
+    padding-top:25px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:medium;
     letter-spacing:2px;
+    padding-right:5px;
    
   }
   .navbar-right ~ .navbar-right {
@@ -6224,6 +6224,7 @@ button.close {
 .carousel {
   position: relative;
   width:100%;
+  background-color:#f5fffA;
 }
 .carousel-inner {
   position: relative;
@@ -6241,7 +6242,8 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
-  width:100%;
+  /*width:100%;*/
+  width:70%;
   margin:auto;
   
 }
