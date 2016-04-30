@@ -1118,6 +1118,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto; 
+  margin-left:60px;
+  /*margin-top:-20px;*/
+  
 }
 .img-rounded {
   border-radius: 6px;
@@ -4139,8 +4142,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar {
     border-radius: 4px;
     /*margin:10px 0;*/
-    margin-top:-5px;
-  }
+    margin-top:-25px;
+    padding-bottom:27px;
 }
 @media (min-width: 768px) {
   .navbar-header {
@@ -4257,9 +4260,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    /*margin-left: -15px;*/
-    /*margin-left:-75px;*/
-    margin:30px 0px 0px 0px;
+    margin-left: -15px;
+    margin-left:-75px;
+    /*margin:30px 0px 0px 0px;*/
   }
 }
 .navbar-toggle {
@@ -4457,7 +4460,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: 0px;
-    padding-top:25px;
+    padding-top:40px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:medium;
     letter-spacing:2px;
@@ -6743,11 +6746,12 @@ button.close {
 
 .brand-name {
  font-family:Arial, Helvetica, sans-serif;
- font-size: 47px;
+ font-size: 20px;
  font-weight: bold;
  color: #444;
  text-decoration: none;
- padding:-10px 10px 10px 10px;
+ padding:-100px 10px 10px 10px;
+ margin-top:0px;
 }
 
 /*.nav-container {
@@ -6755,7 +6759,7 @@ padding-top: 8px;
 }*/
 
 .navbar-custom {
-    font-size: 20px;
+    font-size: 10px;
     font-family:"Times New Roman", Times, serif;
     background-color: #FFF;
     padding:-1000px 0px 0px 0px;
